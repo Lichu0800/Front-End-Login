@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend - Login con JWT (Next.js, TypeScript y Tailwind CSS)
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-13-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0-blueviolet)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-teal)
+![JWT](https://img.shields.io/badge/JWT-Authentication-blue)
 
-First, run the development server:
+> Aplicación frontend desarrollada con Next.js, TypeScript y Tailwind CSS para manejar la autenticación de usuarios mediante JWT. Esta interfaz se conecta con el backend para gestionar el registro, login y acceso a áreas protegidas.  
+>  
+> **Repositorio del Backend:** [Login-JWT-Springboot](https://github.com/Lichu0800/Login-JWT-Springboot)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tabla de Contenidos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Características](#características)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Requisitos](#requisitos)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Características
 
-To learn more about Next.js, take a look at the following resources:
+- Formularios de registro e inicio de sesión.
+- Gestión del token JWT en el cliente (almacenamiento seguro).
+- Rutas protegidas que requieren autenticación.
+- Integración con el backend mediante API REST.
+- Diseño responsivo y moderno utilizando Tailwind CSS.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tecnologías Utilizadas
 
-## Deploy on Vercel
+- **Next.js** (React Framework)
+- **TypeScript**
+- **Tailwind CSS**
+- **Axios** para realizar peticiones HTTP
+- **Next Auth** (opcional, según la implementación de autenticación)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Requisitos
+
+- [Node.js](https://nodejs.org/en/) (v12+)
+- [npm](https://www.npmjs.com/) o [Yarn](https://yarnpkg.com/)
+- Editor de código (VSCode, Sublime, etc.)
+
+---
